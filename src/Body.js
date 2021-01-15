@@ -4,6 +4,7 @@ import About from "./About";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Post from "./Post";
+import Perfil from "./Perfil"
 
 export default function Body() {
     return (
@@ -11,7 +12,8 @@ export default function Body() {
             <Route path="/" exact component={Blog} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
-            <Route path="/post/:slug" component={Post} /> { /* what's :slug? You'll learn it */}
+            <Route path="/post/:slug" component={Post} /> {}
+            <Route path="/perfil" component={Perfil} /> {}
         </Switch>
     );
 }

@@ -30,7 +30,8 @@ header .nav-item.active {
 }
 
 .about,
-.contact {
+.contact,
+.perfil {
   padding   : 100px;
   text-align: center;
 }
