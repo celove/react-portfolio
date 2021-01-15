@@ -5,8 +5,9 @@ export default function Header() {
     return (
         <header>
             <HeaderNavItem exact to="/" name="Blog" />
-            <HeaderNavItem to="/about" name="About" />
-            <HeaderNavItem to="/contact" name="Contact" />
+            <HeaderNavItem to="/about" name="Sobre" />
+            <HeaderNavItem to="/contact" name="Contato" />
+            <HeaderNavItem to="/perfil" name="Perfil" />
         </header>
     );
 }
