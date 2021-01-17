@@ -7,7 +7,6 @@ export default function Perfil() {
             <h1>Oi eu sou o Celovinho</h1>
             <p>I'm only available in the internet</p>
             <Card style={{ width: '18rem', backgroundColor: 'red' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
